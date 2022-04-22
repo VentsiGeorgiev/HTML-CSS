@@ -1,0 +1,54 @@
+@import url('https: //use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+html {
+   font-family: Helvetica, sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: Georgia, serif;
+}
+
+table {
+   border: 1px solid gray;
+   width: 100%;
+   border-collapse: collapse;
+}
+
+thead {
+   background-color: #ccc;
+   text-align: left;
+   padding: 5px;
+}
+
+tbody td {
+   border-right: 1px solid gray;
+}
+
+tbody tr {
+   border-bottom: 1px solid gray;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #f1f1f1;
+}
+
+blockquote {
+   border-left: 3px solid rgb(221, 221, 221);
+   font-style: italic;
+}
+
+blockquote p {
+   font-style: italic;
+   padding-left: 30px;
+}
+
+blockquote p:nth-child(3) {
+   text-align: right;
+}
