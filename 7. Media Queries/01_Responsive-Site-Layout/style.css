@@ -1,0 +1,43 @@
+header {
+   background-color: aquamarine;
+   grid-area: header;
+}
+
+aside {
+   background-color: blanchedalmond;
+   grid-area: aside;
+}
+
+main {
+   background-color: rgb(189, 163, 112);
+   grid-area: main;
+
+}
+
+footer {
+   background-color: cadetblue;
+   grid-area: footer;
+}
+
+body {
+   display: grid;
+   grid-auto-rows: minmax(100px, auto);
+   grid-gap: 1em;
+   grid-template-areas:
+      'header header header header'
+      'aside main main main'
+      'aside main main main'
+      'footer footer footer footer';
+}
+
+
+@media (max-width: 500px) {
+   body {
+      display: grid;
+      grid-template-areas:
+         'header header'
+         'aside aside'
+         'main main'
+         'footer footer';
+   }
+}
