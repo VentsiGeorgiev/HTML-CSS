@@ -1,0 +1,48 @@
+* {
+   box-sizing: border-box;
+}
+
+.flex__container {
+   height: 40vh;
+   width: 800px;
+   background-color: gainsboro;
+   border: 2px solid black;
+   padding: 0.5rem;
+   margin: 2rem;
+
+   display: flex;
+   /* flex-wrap: wrap; */
+   justify-content: center;
+   align-content: space-around;
+   gap: 10px 30px;
+
+}
+
+.flex__item {
+   width: 100px;
+   height: 100px;
+   font-size: 2rem;
+   padding: 1rem;
+
+}
+
+ul li {
+   list-style-type: none;
+}
+
+.first {
+   background-color: red;
+   flex-grow: 1;
+}
+
+.second {
+   background-color: green;
+   flex-grow: 2;
+   align-self: center
+}
+
+.third {
+   background-color: yellow;
+   flex-grow: 3;
+   align-self: flex-end;
+}

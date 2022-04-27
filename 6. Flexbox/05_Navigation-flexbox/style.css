@@ -1,0 +1,44 @@
+body {
+   margin: 50px;
+}
+
+header {
+   border-bottom: 2px solid rgb(0, 0, 0);
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 25px;
+}
+
+.title-header {
+   text-transform: uppercase;
+   font-size: 3rem;
+   font-weight: bold;
+}
+
+ul {
+   display: flex;
+}
+
+a {
+   color: rgb(0, 153, 0);
+   text-decoration: none;
+   font-size: 1.5rem;
+}
+
+
+li {
+   list-style: none;
+   margin-right: 15px;
+   align-self: center;
+}
+
+h2 {
+   font-size: 2rem;
+   line-height: 2;
+}
+
+p {
+   font-size: 1rem;
+   line-height: 1.4;
+   padding: 5px;
+}

@@ -1,0 +1,21 @@
+body {
+   background-color: gainsboro;
+}
+
+.images {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.image {
+
+   padding: 20px 10px;
+   margin: 10px;
+   border: 5px solid black;
+   background-color: white;
+}
+
+.img {
+   flex: 1 0 44%;
+}
