@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+   --bg-body: hsl(233, 47%, 7%);
+   --card-background: hsl(244, 38%, 16%);
+   --color-accent: hsl(277, 64%, 61%);
+   --main-stat: hsl(0, 0%, 100%);
+   --main-paragraph: hsla(0, 0%, 100%, 0.75);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   font-family: 'Lexend Deca', sans-serif;
+   background-color: var(--bg-body);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card {
+   background-color: var(--card-background);
+   color: var(--main-stat);
+   width: 380px;
+   height: 90%;
+   border-radius: 20px;
+   text-align: center;
+   margin: 0px 20px;
+}
+
+.info h2 span {
+   color: var(--color-accent);
+}
+
+.info h2 {
+   font-family: 'Inter', sans-serif;
+   font-size: 2.2rem;
+   margin: 20px 0px;
+}
+
+.img-sec {
+   height: 32%;
+   width: 100%;
+   background: linear-gradient(#9635d386, #9635d386), url('./images/image-header-mobile.jpg');
+   background-size: cover;
+}
+
+.main-paragraph {
+   font-size: 1.2rem;
+   color: var(--main-paragraph);
+   padding: 0px 20px;
+}
+
+.overview span {
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+.overview p {
+   font-size: 1rem;
+   color: var(--main-paragraph);
+   padding-bottom: 10px;
+}
+
+@media (min-width: 1140px) {
+   .card {
+      height: 25rem;
+      width: 60rem;
+      display: flex;
+      flex-direction: row-reverse;
+   }
+
+   .img-sec {
+
+      background: linear-gradient(#9635d386, #9635d386), url('./images/image-header-desktop.jpg');
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+   }
+
+   .overviews {
+      margin: 2rem;
+   }
+
+   .overview {
+      display: inline-block;
+   }
+
+   .info {
+      text-align: center;
+   }
+
+}
