@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+   .main-nav {
+      display: none;
+   }
+
+   .wrapper {
+      width: 100%;
+      text-align: center;
+   }
+
+   .hero-head .goal {
+      max-width: none;
+      margin: 0 20px;
+   }
+
+   .content-wrap {
+      flex-direction: column;
+   }
+
+   .content-wrap.two-col .col {
+      margin: 0 25px;
+   }
+
+   .main-foot .wrapper {
+      flex-direction: column;
+   }
+
+   .main-foot .bottom .copyright {
+      float: none;
+   }
+}
