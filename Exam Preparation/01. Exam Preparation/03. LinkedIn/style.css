@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   /* margin: 0 60px; */
+}
+
+/* header */
+
+.login-section {
+   margin: 0 60px;
+}
+
+.logo {
+   width: 300px;
+}
+
+.logo img {
+   width: 100%;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0% auto;
+   margin: 0 60px;
+}
+
+.navigation {
+   display: flex;
+   gap: 30px;
+}
+
+ul li {
+   list-style-type: none;
+}
+
+li a {
+   text-decoration: none;
+}
+
+.nav-links {
+   font-size: 2rem;
+   padding: 10px 30px;
+}
+
+.nav-sing-in {
+   color: #0A66C2;
+   border: 2px solid #0A66C2;
+   border-radius: 40px;
+}
+
+/* Hero section */
+
+.hero {
+   display: flex;
+}
+
+.hero-title {
+   color: #0A66C2;
+   font-size: 5rem;
+   margin-bottom: 20px;
+}
+
+.input-fields {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   gap: 20px;
+}
+
+.input-field {
+   padding: 15px;
+   font-size: 1.4rem;
+}
+
+.password {
+   margin: 20px 0;
+   font-size: 1.4rem;
+}
+
+.btn {
+   background-color: #0A66C2;
+   color: #fff;
+   width: 60%;
+   border: none;
+   text-align: center;
+   padding: 15px 0;
+   border-radius: 40px;
+   font-size: 1.4rem;
+}
+
+
+/* hero -> Img */
+.hero-image {
+   width: 50%;
+}
+
+.hero-image img {
+   width: 100%;
+   height: 100%;
+}
+
+/* jobs section */
+.jobs {
+   background-color: #FAF9F7;
+   height: 500px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+
+}
+
+.jobs-title {
+   font-size: 3rem;
+   margin-left: 40px;
+}
+
+.search-title {
+   color: #666;
+   margin-bottom: 15px;
+}
+
+.search-btn {
+   font-size: 2rem;
+   background-color: #E6E5E4;
+   padding: 25px 15px;
+   border: none;
+   border-radius: 40px;
+   margin: 5px 10px;
+   color: #666;
+}
+
+/* post jobs */
+
+.post-jobs {
+   background-color: #F1ECE5;
+   display: flex;
+
+}
+
+.post-job-title {
+   font-size: 3rem;
+   color: #B74D2F;
+}
+
+.job-btn {
+   font-size: 2rem;
+   background-color: #F1ECE5;
+   padding: 30px 25px;
+   border: 1px solid black;
+   border-radius: 40px;
+   margin: 5px 10px;
+   color: #666;
+}
+
+.red {
+   color: #B24020;
+}
+
+.light-red {
+   background-color: #F1ECE5;
+}
+
+
+/* open to work */
+
+.open-to-work {
+   background: linear-gradient(180deg, rgba(250, 249, 247, 1) 0%, rgba(250, 249, 247, 1) 100%);
+}
+
+.open-work-wrapper {
+   display: flex;
+   margin: 0 100px;
+   padding: 100px 0;
+   align-items: center;
+}
+
+.text-section {
+   width: 80%;
+}
+
+.work-title {
+   color: #0A66C2;
+   font-size: 3rem;
+}
+
+.work-description {
+   font-size: 2.5rem;
+}
+
+.image-section {
+   width: 70%;
+}
+
+.image-section img {
+   width: 100%;
+   height: 100%;
+}
+
+/* people */
+.people {
+   margin-left: 100px;
+}
+
+.people-wrapper {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-content: center;
+   gap: 50px;
+   margin: 100px 0;
+}
+
+.people-title {
+   font-size: 5rem;
+   font-weight: 200;
+}
+
+.image {
+   width: 400px;
+}
+
+.image img {
+   width: 100%;
+}
+
+.btn-people {
+   padding: 10px 30px;
+   background-color: #fff;
+   color: #666;
+   border: 1px solid #666;
+   font-size: 1.4rem;
+   border-radius: 50px;
+   margin: 30px 0;
+}
+
+/* join section */
+
+.join-section {
+   position: absolute;
+   z-index: 1;
+
+   margin-left: 80px;
+}
+
+.join-section h2 {
+   color: #0A66C2;
+   font-size: 4rem;
+   font-weight: 200;
+   width: 75%;
+}
+
+.join-image {
+   position: relative;
+   margin: -50px;
+}
+
+.join-btn {
+   padding: 10px 30px;
+   background-color: #0A66C2;
+   color: #fff;
+   border: none;
+   font-size: 1.4rem;
+   border-radius: 40px;
+}
+
+.links img {
+   width: 200px;
+}
+
+.links-wrapper {
+   height: 300px;
+   background-color: #FAF9F7;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   justify-content: space-around;
+   align-content: center;
+}
+
+.link-title {
+   margin-bottom: 20px;
+}
+
+.link {
+   font-size: 1.4rem;
+   color: #666;
+}
