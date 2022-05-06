@@ -190,6 +190,19 @@ li a {
    border-radius: 50%;
 }
 
+/* early access */
+
+.early-access {
+   background-color: hsl(238, 22%, 44%);
+   color: #fff;
+   padding: 30px 15px;
+   text-align: center;
+}
+
+.early-access-info {
+   margin: 20px;
+}
+
 
 @media (min-width: 1028px) {
 
@@ -231,6 +244,22 @@ li a {
    }
 
 
+   .early-access {
+      display: flex;
+      padding: 50px 20px;
+   }
 
+   .early-access-text {
+      flex: 1;
+   }
+
+   .early-access-form {
+      flex: 1;
+   }
+
+   .btn-access {
+      margin-left: 0;
+      margin-top: 20px;
+   }
 
 }
