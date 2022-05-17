@@ -4,6 +4,7 @@
 
 html {
    margin: 40px;
+   font-family: Helvetica, sans-serif;
 }
 
 ul {
@@ -12,6 +13,10 @@ ul {
 
 h1:nth-child(1) {
    margin: 0 0 0px;
+}
+
+nav {
+   display: inline-block;
 }
 
 nav ul li {
