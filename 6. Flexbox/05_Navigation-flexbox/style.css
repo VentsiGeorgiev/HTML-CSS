@@ -2,11 +2,15 @@ body {
    margin: 50px;
 }
 
-header {
+body header {
    border-bottom: 2px solid rgb(0, 0, 0);
    display: flex;
    justify-content: space-between;
    padding-bottom: 25px;
+}
+
+body>header {
+   border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .title-header {
