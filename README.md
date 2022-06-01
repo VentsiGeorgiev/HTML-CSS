@@ -20,6 +20,53 @@ The course "HTML & CSS" is to providing basic knowledge of web technologies and 
 
 ## Front-end codding challenges
 
-### - QR Code
+### QR Code
 - Live: [Link](https://qr-code-3c0f86.netlify.app/)
 - Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/01.%20QR%20Code)
+
+
+### NFT card component
+- Live: [Link](https://nft-card-9a0491.netlify.app/)
+- Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/02.%20NFT%20Card%20Component)
+
+
+### Order summary component
+- Live: [Link](https://order-ba88e2.netlify.app/)
+- Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/03.%20Order%20summary%20component)
+
+
+### Stats preview card component
+- Live: [Link](https://stats-preview-405832.netlify.app/)
+- Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/04.%20Stats%20preview%20card%20component)
+
+
+### 3-column preview card component
+- Live: [Link](https://3-column-component-ff367c.netlify.app/)
+- Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/05.%203-column%20preview%20card%20component)
+
+
+### Testimonials grid section
+- Live: [Link](https://testimonial-grid-5bdd8f.netlify.app/)
+- Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/06.%20Testimonials%20grid%20section)
+
+
+### Four card section
+- Live: [Link](https://four-card-525426.netlify.app/)
+- Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/07.%20Four%20card%20section)
+
+
+### Single price grid component
+- Live: [Link](https://four-card-525426.netlify.app/)
+- Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/07.%20Four%20card%20section)
+
+
+### Profile card component
+- Live: [Link](https://profile-card-b3187e.netlify.app/)
+- Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/08.%20Profile%20card%20component)
+
+
+### Single price grid component
+- Live: [Link](https://single-price-63c55e.netlify.app/)
+- Repo: [Link](https://github.com/VentsiGeorgiev/HTML-CSS/tree/main/Frontend%20Mentor%20Challenges/09.%20Single%20price%20grid%20component)
+
+
