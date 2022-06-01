@@ -167,9 +167,14 @@ body {
    padding-top: 100px;
 }
 
-.footer-box {
-   margin: 10px 0;
+.footer-info {
+   margin-bottom: 10px;
 }
+
+.footer-info p i {
+   padding: 10px 0;
+}
+
 
 li a {
    text-decoration: none;
@@ -191,19 +196,24 @@ ul li {
 
 /* social media */
 .social-media {
-   display: inline-block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 0;
 }
 
 
-.social-media-icon {
-   border: 1px solid #fff;
+i.fa-brands {
+   display: inline-block;
    border-radius: 50%;
-   color: #fff;
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   height: 40px;
-   width: 40px;
+   box-shadow: 0 0 2px #888;
+   padding: 10px;
+   border: 1px solid #fff;
+}
+
+.social-media-icon li a {
+   padding: 10px;
+   background-color: red;
 }
 
 
