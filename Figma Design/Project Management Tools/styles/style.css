@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+/* Header */
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .navigation {
+  display: flex;
+  gap: 1rem;
+}
+
+.container .navigation li a {
+  color: #191919;
+}
+
+.btn {
+  padding: 4px 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #191919;
+  color: #fff;
+}
+
+/* Home */
+
+.home {
+  background-color: #BEC0FF;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container .home-title {
+  margin-top: 60px;
+  font-size: 4rem;
+  width: 50%;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.home-container .home-text {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-container .buttons {
+  margin-bottom: 20px;
+}
+
+.home-container img {
+  max-width: 650px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.home-container .info {
+  color: #78727F;
+  margin-bottom: 30px;
+}
+
+.home-container .partners {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 30px;
+}
+
+/* Features */
+
+.features-section {
+  max-width: 1280px;
+  width: 100%;
+  margin: 80px auto;
+}
+
+.features-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 3rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.features .feature {
+  width: 80%;
+}
