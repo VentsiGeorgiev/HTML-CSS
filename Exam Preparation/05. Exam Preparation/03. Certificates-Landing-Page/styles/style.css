@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* # header  */
+
+#header {
+  border: 1px solid orange;
+}
+
+#header {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 80%), url('../images/hero-certificates.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 10vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+/* - logo */
+.logo {
+  width: 150px;
+}
+
+/* - nav */
+.nav-container .navigation ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation .active {
+  border-top: 2px solid #42ABF8;
+}
+
+.navigation .aa {
+  background-color: #42ABF8;
+  color: #fff;
+  padding: 8px;
+  border-radius: 100%;
+  box-shadow: #42ABF8 2px 4px 8px;
+}
+
+/* hero - text, images */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cerfiticates {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.cerfiticates .cerfiticates__text {
+  background-color: #29394B;
+  color: #fff;
+  width: 65%;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.cerfiticates__text h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.cerfiticates__text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cerfiticates__images img {
+  display: inline-block;
+}
+
+.certificate__info p {
+  padding-left: 60px;
+  font-style: italic;
+  color: #3F4D5E;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/* main - diploma */
+.diploma {
+  margin: 60px 0;
+}
+
+.diploma .diploma__title {
+  text-align: center;
+  columns: #3F4D5E;
+  font-weight: 400;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+
+.diploma .diploma__info {
+  background-color: #F4F5F7;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.diploma .diploma__info p {
+  margin-bottom: 30px;
+  color: #3F4D5E;
+}
+
+/* cta */
+
+.cta {
+  background: linear-gradient(0deg, rgb(71, 71, 71) 0%, rgba(65, 65, 65, 0.6) 80%), url('../images/sign-up-prompt-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px
+}
+
+
+.cta {
+  border-radius: 10px;
+  box-shadow: rgba(54, 54, 54, 0.2) 0px 8px 24px;
+}
+
+
+.cta .cta__title,
+.cta__text {
+  color: #fff;
+  font-weight: 400;
+}
+
+.cta p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #42ABF8;
+  margin-right: 40px;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #29394B;
+  padding: 20px;
+}
+
+#footer .footer-nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+#footer .footer-logo {
+  display: flex;
+  gap: 1rem;
+}
+
+#footer .footer-logo p {
+  color: rgb(128, 128, 128);
+  font-size: 13px;
+}

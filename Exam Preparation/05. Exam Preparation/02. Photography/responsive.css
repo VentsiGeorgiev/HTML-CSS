@@ -1,0 +1,19 @@
+/* TODO: Add media queries */
+
+
+@media only screen and (min-width: 300px) {
+  ul.icons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .thumbnails {
+    flex-wrap: wrap;
+  }
+
+  .thumbnails>div {
+    width: 100%;
+  }
+}

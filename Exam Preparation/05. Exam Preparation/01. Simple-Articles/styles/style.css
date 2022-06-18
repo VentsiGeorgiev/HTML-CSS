@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.price-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '✓';
+  color: #4AACF8;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.features,
+.pricing {
+  width: 30%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.features {
+  background-color: #E3F3FD;
+}
+
+.features__title {
+  color: #425161;
+  font-size: 1.3rem;
+  margin-bottom: 14px;
+}
+
+.features__title ul li {
+  color: #425161;
+  margin-bottom: 6px;
+}
+
+
+.pricing {
+  align-items: center;
+  border: 4px solid #4AACF8;
+  border-radius: 8px;
+}
+
+.pricing .pricing__price {
+  font-size: 2.5rem;
+  color: #4AACF8;
+}
+
+.pricing .pricing__month {
+  color: #425161;
+}
+
+.pricing p:nth-child(1) {
+  background-color: red;
+}
+
+.pricing p {
+  color: #425161;
+  margin-bottom: 20px;
+}
+
+
+.pricing button {
+  background-color: #4AACF8;
+  color: #fff;
+  border: none;
+  /* font-size: 1.3rem; */
+  padding: 4px 30px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
