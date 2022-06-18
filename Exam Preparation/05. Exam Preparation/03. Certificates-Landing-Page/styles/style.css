@@ -7,10 +7,6 @@ body {
 /* # header  */
 
 #header {
-  border: 1px solid orange;
-}
-
-#header {
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 80%), url('../images/hero-certificates.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,6 +24,20 @@ body {
   border-radius: 0px 0px 15px 15px;
 }
 
+.nav-container .navigation .active {
+  position: relative;
+}
+
+.nav-container .navigation .active::before {
+  position: absolute;
+  content: '';
+  width: 90px;
+  height: 8px;
+  background-color: #42ABF8;
+  top: -36px;
+}
+
+
 /* - logo */
 .logo {
   width: 150px;
@@ -37,10 +47,6 @@ body {
 .nav-container .navigation ul {
   display: flex;
   gap: 1rem;
-}
-
-.navigation .active {
-  border-top: 2px solid #42ABF8;
 }
 
 .navigation .aa {
@@ -165,6 +171,17 @@ body {
   background-color: #fff;
   color: #42ABF8;
   margin-right: 40px;
+  position: relative;
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 50px;
+  background-color: #fff;
+  top: -5px;
+  right: -25px;
 }
 
 .btn-secondary {
