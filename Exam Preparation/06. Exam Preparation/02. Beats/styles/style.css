@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* # navigation */
+
+.navigation ul {
+  display: flex;
+  max-width: 1028px;
+  width: 100%;
+  height: 10vh;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.navigation ul li a {
+  text-transform: uppercase;
+  color: #9E9E9E;
+  font-weight: 500;
+}
+
+/* # hero section */
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.hero .hero__info {
+  margin-left: 25%;
+  max-width: 500px;
+  width: 100%;
+}
+
+.hero .hero__info .hero__title {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+.hero .hero__info .hero__text {
+  color: #191919;
+  line-height: 2.2;
+  margin-bottom: 40px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn-primary {
+  background-color: #FF0000;
+  color: #fff;
+  font-weight: 200;
+}
+
+.hero-image img {
+  margin-left: 10px;
+}
+
+/* powerbeats */
+
+.powerbeats {
+  margin-top: 40px;
+  background-color: #FBFCFF;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 75vh;
+}
+
+.powerbeats-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.powerbeats__info {
+  width: 80%;
+}
+
+.powerbeats__info .powerbeats__title {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.powerbeats__info .powerbeats__subtitle {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 50px;
+}
+
+.font-light {
+  font-weight: 400;
+}
+
+.powerbeats__info .powerbeats__text {
+  line-height: 1.3;
+  color: #191919;
+  margin-bottom: 50px;
+}
+
+.powerbeats__info .buy {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.text-bold {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+/* cta */
+
+.cta {
+  background-color: #575757;
+
+}
+
+.cta-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cta .cta-image-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  gap: 2rem;
+}
+
+.cta-image-text {
+  color: #fff;
+}
+
+.cta-image-text h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.cta-image-text h3 span {
+  font-weight: 500;
+}
+
+.cta-container {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.cta-container a {
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 1.8;
+
+  position: relative;
+}
+
+.cta-container a::before {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 2px;
+  background-color: #fff;
+  bottom: -8px;
+}
+
+/* give life */
+.give-life {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.give-life .beats-girl {
+  width: 100%;
+  object-fit: cover;
+}
+
+.give-life__info {
+  background-color: #DADADA;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.give-life__info .give-life__title h4 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  color: #333333;
+  line-height: 1;
+}
+
+.give-life__info .give-life__title h5 {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.give-life__info .give-life__title h5 .text-red {
+  text-transform: uppercase;
+  color: #FF0000;
+  font-weight: 700;
+}
+
+#footer p {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 2rem;
+}
