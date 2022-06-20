@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Gelasio', serif;
+}
+
+.wrapper {
+  background: url('../images/map.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+#header .logo-img {
+  width: 80px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 10vh;
+}
+
+#header .navigation ul li {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+}
+
+#header .navigation ul li a {
+  color: #fff;
+}
+
+.hero-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-title h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  text-shadow: 2px 2px #3d3d3d;
+}
+
+.hero-title button {
+  border: none;
+  font-size: 1.2rem;
+  background-color: #146594;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+/* articles */
+.articles {
+  background-color: #E1E1E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articles .container {
+  padding: 40px 0;
+}
+
+.articles h2 {
+  font-size: 2rem;
+  color: #53595C;
+  margin-bottom: 25px;
+}
+
+.article-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.packing {
+  background-image: url('../images/packing.jpg');
+  width: 50vh;
+}
+
+.plan-budget .plan {
+  background-image: url('../images/planning.jpg');
+  height: 40vh;
+  width: 35vw;
+
+}
+
+.plan-budget .budget {
+  background-image: url('../images/budget.jpg');
+  height: 40vh;
+  width: 35vw;
+  position: relative;
+}
+
+.posts {
+  display: flex;
+}
+
+.article-title {
+  color: #fff;
+  text-shadow: 2px 2px #3d3d3d;
+  font-size: 1.8rem;
+}
+
+.posts .packing .pack {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.article-title.plan-title {
+  text-align: center;
+}
+
+.article-title.budget-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#footer {
+  background-color: #8C8C8C;
+}
+
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-nav ul li:not(:last-child) {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+
+.footer-nav ul li a {
+  color: #fff;
+  font-size: 1rem;
+}
