@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --dark-color: #001216;
+  --light-blue: #01F2FD;
+  --white-color: #fff;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.earth {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid var(--dark-color);
+  border-radius: 8px;
+}
+
+.earth .earth__title {
+  background-color: var(--dark-color);
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.earth .earth__title h1 {
+  color: var(--light-blue);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.earth .earth__title h3 {
+  color: var(--white-color);
+  font-weight: 400;
+}
+
+.earth__cotainer {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.earth__card {
+  width: 100%;
+  border: 1px solid var(--dark-color);
+  padding: 8px 22px;
+  margin: 10px
+}
+
+.earth__card p {
+  font-size: 0.8rem;
+  letter-spacing: 1.2px;
+}
+
+.earth__card img {
+  width: 100%;
+}
+
+.earth__text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 20px 10px;
+  letter-spacing: 1.2px;
+}
+
+/* facts */
+
+.facts h2 {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  display: inline-block;
+  padding: 8px 18px;
+}
+
+.earth__facts {
+  padding: 20px;
+}
+
+.facts .bold {
+  font-weight: 700;
+}
+
+.facts .earth__facts {
+  background-color: #D9EBEB;
+}
+
+.facts .earth__facts ul li {
+  letter-spacing: 1.2px;
+}
