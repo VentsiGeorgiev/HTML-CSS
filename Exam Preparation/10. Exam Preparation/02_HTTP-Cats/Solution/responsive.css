@@ -1,0 +1,32 @@
+/* 	* **width <=768px** */
+
+@media screen and (max-width: 768px) {
+  .wrapper.style2 {
+    padding: 2rem;
+  }
+
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery>* {
+    width: 100%;
+  }
+
+  .spotlight .inner {
+    padding: 2rem;
+  }
+
+  .spotlight {
+    flex-direction: column;
+  }
+
+  .spotlight>* {
+    width: 100%;
+  }
+
+  .spotlight.alt {
+    text-align: center;
+  }
+
+}
