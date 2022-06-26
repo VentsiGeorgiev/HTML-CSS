@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+  --white-clr: #fff;
+  --green-clr: #00D08E;
+  --dark-clr: #20252D;
+  --light-green-clr: #B2F1DD;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.btn {
+  border: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+/* --- === Layout === --- */
+
+#hero {
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(8, 8, 8, 0.719), rgba(3, 3, 3, 0.2)),
+    url('../image/computer-main.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+
+#hero .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+#hero .header .logo {
+  font-size: 1.6rem;
+  text-shadow: 2px 2px #252525;
+}
+
+#hero .header .logo a {
+  color: var(--white-clr);
+  font-size: 1.6rem;
+  text-shadow: 2px 2px #252525;
+}
+
+
+.header .icon {
+  color: var(--white-clr);
+  font-size: 2rem;
+  margin-right: 10px;
+  text-shadow: 2px 2px #252525;
+}
+
+#hero .header .cart a {
+  color: var(--white-clr);
+  font-size: 1.8rem;
+  text-shadow: 2px 2px #252525;
+}
+
+#hero .hero__info {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hero .hero__info .hero__title {
+  color: var(--white-clr);
+  font-size: 4rem;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #252525;
+}
+
+#hero .hero__info .hero__text {
+  font-size: 1.6rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: var(--white-clr);
+  text-shadow: 2px 2px #252525;
+}
+
+#hero .hero__info .btn-primary {
+  background-color: var(--green-clr);
+  color: var(--white-clr);
+  padding: 8px 16px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#hero .hero__info .btn-primary:hover {
+  background-color: transparent;
+  border: 2px solid var(--white-clr);
+}
+
+#hero .hero__info .link {
+  color: var(--white-clr);
+}
+
+#hero .hero__info .link a {
+  margin-right: 15px;
+  color: var(--white-clr);
+  font-size: 1.4rem;
+  text-shadow: 2px 2px #252525;
+}
+
+/* # Case */
+
+#case {
+  max-width: 1920px;
+  width: 100%;
+  height: 50vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#case img {
+  width: 100%;
+  height: 50vh;
+}
+
+#case .case__info {
+  padding: 40px 60px;
+}
+
+#case .case__info .case__title {
+  font-size: 2.4rem;
+  color: var(--dark-clr);
+  margin-bottom: 20px;
+}
+
+#case .case__info .case__text {
+  font-size: 1.4rem;
+  color: var(--dark-clr);
+  margin-bottom: 20px;
+}
+
+#case .case__info ul .fa-circle-check {
+  color: var(--green-clr);
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+#case .case__info ul {
+  font-size: 1.2rem;
+}
+
+/* hustclecase */
+
+#hustlecase {
+  max-width: 1920px;
+  width: 100%;
+  height: 60vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.features-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 3rem;
+}
+
+
+.features__images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#hustlecase .features__images .image {
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+#hustlecase .feature-text {
+  text-align: center;
+  color: var(--green-clr);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.hustle-image {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+
+/* Questions */
+
+#questions {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--light-green-clr);
+}
+
+.questions_title {
+  text-align: center;
+  font-size: 2.4rem;
+  padding: 40px 0 60px;
+}
+
+.questions-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 30px;
+}
+
+.questions-wrapper .question {
+  width: calc(33.33% - 4rem);
+  text-align: center;
+}
+
+.questions-wrapper .question .question__title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.questions-wrapper .question .question__answer {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#questions .link {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#questions .link a {
+  color: var(--dark-clr);
+}

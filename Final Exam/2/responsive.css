@@ -1,0 +1,58 @@
+@media screen and (max-width: 600px) {
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  main .left-to-right article {
+    width: unset;
+    margin: 0 auto;
+    height: 45vh;
+    padding: 15px 25px;
+    border-radius: 60px;
+  }
+
+  button {
+    display: none
+  }
+
+  .left-to-right:first-child {
+    height: 55vh;
+  }
+
+  main section:nth-child(2) {
+    flex-direction: column;
+  }
+
+  main section:nth-child(2) article,
+  main section:nth-child(4) article {
+    margin: 0 5%;
+  }
+
+  main section.left-to-right:nth-child(3) {
+    height: 65vh;
+  }
+
+  main section:nth-child(4) {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  section form label input,
+  section form textarea {
+    width: 100%
+  }
+
+  form>label:nth-child(4) {
+    text-align: center;
+  }
+
+  article:nth-child(2)>img {
+    margin: 0 auto;
+  }
+}

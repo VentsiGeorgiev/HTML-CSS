@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+:root {
+  --bg-clr: #F5F5F5;
+  --red-clr: #CB2027;
+  --dark-clr: #000000;
+  --white-clr: #ffffff;
+}
+
+body {
+  font-family: 'Courgette', cursive;
+}
+
+#home .container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* --- === Layout === --- */
+
+#home {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--bg-clr);
+}
+
+#home .home__title {
+  width: 25%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+#home .home__title .title {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+#home .home__title .subtitle {
+  font-size: 2rem;
+  text-align: right;
+  color: var(--red-clr);
+  margin-bottom: 40px;
+}
+
+/* homes */
+
+.homes {
+  display: flex;
+  gap: 3rem;
+}
+
+.homes .home {
+  background-color: var(--white-clr);
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 33.333%;
+}
+
+.homes img {
+  margin-bottom: 14px;
+}
+
+.home__info {
+  padding: 10px 30px;
+}
+
+.home__info h2 {
+  font-size: 1.6rem;
+  margin-bottom: 14px;
+}
+
+
+
+.home__info .divider {
+  width: 95%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: var(--red-clr);
+  margin-bottom: 14px;
+}
+
+.home__info p {
+  font-size: 1.2rem;
+  height: 10vh;
+  margin-bottom: 14px;
+}
+
+.home__info .link {
+  margin-bottom: 20px;
+}
+
+.home__info .link a {
+  color: var(--dark-clr);
+  font-size: 1.3rem;
+  padding-right: 8px;
+}
+
+.home__info .link .fa-solid {
+  color: var(--red-clr);
+}
