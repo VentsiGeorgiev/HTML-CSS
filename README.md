@@ -14,6 +14,10 @@ The course "HTML & CSS" is to providing basic knowledge of web technologies and 
 - Flexbox
 - Media Queries
 
+# Certificate
+
+ ![Certificate HTML & CSS - Ventsislav Georgiev](/Certificate/HTML-CSS-Certificate.jpeg)
+
 
 # Frontend Mentor - [Frontend Mentor](https://www.frontendmentor.io/home)
 
